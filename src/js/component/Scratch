@@ -1,0 +1,46 @@
+
+
+
+
+export function NavBar() {
+  return (
+    <nav
+      className="nav justify-content-between"
+      style={{ backgroundColor: "#333333" }}
+    >
+      <ul className="nav">
+        <li className="nav-item">
+          <a className="nav-link text-white" href="#">
+            Start Bootstrap
+          </a>
+        </li>
+      </ul>
+      <ul className="nav">
+        <li className="nav-item">
+          <a
+            className="nav-link active text-white"
+            aria-current="Home"
+            href="#"
+          >
+            Home
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link disabled" href="#">
+            About
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link disabled" href="#">
+            Services
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link disabled" aria-disabled="true">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
+}
